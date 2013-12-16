@@ -1,0 +1,202 @@
+/*
+Autor: Vinícius Palma
+Data: 13/12/2013
+Estilo para site de comemoração natalina.
+*/
+body, html{
+	height: 99%;
+}
+
+.palco{
+	width: 100%;
+	height:100%;
+	background: rgba(0,0,0, 0.5);
+	z-index: 1;
+}
+
+.boneco{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 40%;
+	height: 80%;
+	background: rgb(255,255,255);
+	z-index: 2;
+}
+
+.cabeca{
+	position: absolute;
+	top: 3%;
+	left: 32.5%;
+	height: 25%;
+	width: 35%;
+	border-radius: 50%;
+	background: #FDD6AA;
+	z-index: 4;	
+}
+
+.barba{
+	position: absolute;
+	top: 18%;
+	left: 33%;
+	width: 35%;
+	height: 25%;
+	background: transparent;
+	z-index: 5;
+}
+
+.detalhe-barba{
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+	background: rgb(255,255,255);
+	box-shadow: inset 0 8px 3px -6px rgba(0,0,0,0.8);
+	z-index: 6;
+}
+
+.detalhe-barba.db1{top: 8%; left: 0; z-index: 7;  box-shadow: inset 8px 0px 3px -6px rgba(0,0,0,0.8), inset 0 8px 3px -6px rgba(0,0,0,0.8);}
+.detalhe-barba.db2{top: 6%; left: 10%; z-index: 8;}
+.detalhe-barba.db3{top: 4%; left: 20%; z-index: 9;}
+.detalhe-barba.db4{top: 2%; left: 30%; z-index: 10;}
+.detalhe-barba.db5{top: 0; left: 40%; z-index: 11;}
+.detalhe-barba.db6{top: 2%; left: 50%; z-index: 10;}
+.detalhe-barba.db7{top: 4%; left: 60%; z-index: 9;}
+.detalhe-barba.db8{top: 6%; left: 70%; z-index: 8;}
+.detalhe-barba.db9{top: 8%; left: 80%; z-index: 7; box-shadow: inset -10px 0px 3px -7px rgba(0, 0, 0, 0.8), inset 0 8px 3px -6px rgba(0,0,0,0.8);}
+.detalhe-barba.db10{top: 20%; left: 2%; z-index: 7; box-shadow: inset 6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db11{top: 32%; left: 10%; z-index: 7; box-shadow: inset 6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db12{top: 44%; left: 18%; z-index: 7; box-shadow: inset 6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db13{top: 56%; left: 26%; z-index: 7; box-shadow: inset 6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db14{top: 61%; left: 33%; z-index: 7; box-shadow: inset 0 -8px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db15{top: 21%; left: 76%; z-index: 7; box-shadow: inset -6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db16{top: 33%; left: 68%; z-index: 7; box-shadow: inset -6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db17{top: 45%; left: 60%; z-index: 7; box-shadow: inset -6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db18{top: 57%; left: 52%; z-index: 7; box-shadow: inset -6px -5px 3px -5px rgba(0,0,0,0.8);}
+.detalhe-barba.db19{top: 61%; left: 44%; z-index: 7; box-shadow: inset -5px -6px 3px -5px rgba(0,0,0,0.8);}
+
+.preenche-meio{
+	position: absolute;
+	top: 20%;
+	left: 22%;
+	width: 51%;
+	height: 38%;
+	background: rgb(255,255,255);
+	z-index: 7;
+}
+.detalhe-barba-meio{
+	position: absolute;
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+	background: rgb(255,255,255);
+	box-shadow: inset 0 -8px 3px -6px rgba(0,0,0,0.2);
+	z-index: ;
+}
+
+.detalhe-barba-meio.dbm1{top: 20%; left: 10%; z-index: 8;}
+.detalhe-barba-meio.dbm2{top: 15%; left: 15%; z-index: 8;}
+.detalhe-barba-meio.dbm3{top: 14%; left: 28%; z-index: 8;}
+.detalhe-barba-meio.dbm4{top: 13%; left: 40%; z-index: 8;}
+.detalhe-barba-meio.dbm5{top: 14%; left: 50%; z-index: 8;}
+.detalhe-barba-meio.dbm6{top: 14%; left: 60%; z-index: 8;}
+.detalhe-barba-meio.dbm7{top: 19%; left: 70%; z-index: 8;}
+.detalhe-barba-meio.dbm8{top: 45%; left: 30%; z-index: 8;}
+.detalhe-barba-meio.dbm9{top: 50%; left: 39%; z-index: 8;}
+.detalhe-barba-meio.dbm10{top: 45%; left: 50%; z-index: 8;}
+
+.barriga{
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	width: 70%;
+	height: 50%;
+	background: rgb(237,36,33);
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.detalhe-bordado{
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	height: 98%;
+	border-radius: 50%;
+	border: dashed 1px black;
+	z-index: 4;
+}
+
+.detalhe-cinto{
+	position: absolute;	
+	/*background: rgba(0,0,0,0.5);*/
+	border-radius: 50%;
+	border-bottom: dashed 2px black;
+	z-index: 5;
+}
+
+.detalhe-cinto.dc1{
+	top: 40%;
+	left: 2%;
+	width: 97%;
+	height: 30%;
+}
+.detalhe-cinto.dc2{
+	top: 35%;
+	left: 2%;
+	width: 97%;
+	height: 30%;
+}
+
+.fivela{
+	position: absolute;
+	top: 64.5%;
+	left: 45%;
+	width: 7%;
+	height: 4%; 
+	background: rgba(0,0,0,.5);
+	border: solid 4px black;
+	border-radius: 10%;
+	z-index: 6;
+}
+
+.detalhe-fivela{
+	position: absolute;
+	top: 0;
+	left: 40%;
+	height: 80%;
+	width: 15%;
+	background: black;
+	z-index: 7;
+}
+
+.boca {
+  position: absolute;
+  top: 30%;
+  left: 36%;
+  width: 20%;
+  height: 15%;
+  background-color: rgba(0,0,0,0.85);
+  border-radius: 50% 50% 10% 10%;
+  z-index: 20;
+}
+
+.singing {-webkit-animation: month-singing .7s linear infinite;}
+
+@-webkit-keyframes month-singing {
+  0%, 100% {
+    height: 10%;
+    border-radius: 50% 50% 10% 10%;
+    -webkit-transform: scale(1);
+  }
+  25%, 75% {
+    height: 20%;
+    border-radius: 50%;
+    -webkit-transform: scale(1.6);
+  }
+  50% {
+    height: 13%;;
+    border-radius: 50%;
+    -webkit-transform: scale(1.2);
+  }
+}
