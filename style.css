@@ -37,8 +37,8 @@ body, html{
 
 .barba{
 	position: absolute;
-	top: 18%;
-	left: 33%;
+	top: 16%;
+	left: 33.5%;
 	width: 35%;
 	height: 25%;
 	background: transparent;
@@ -130,7 +130,7 @@ body, html{
 .detalhe-cinto{
 	position: absolute;	
 	/*background: rgba(0,0,0,0.5);*/
-	border-radius: 50%;
+	border-radius: 40%;
 	border-bottom: dashed 2px black;
 	z-index: 5;
 }
@@ -148,14 +148,22 @@ body, html{
 	height: 30%;
 }
 
+.detalhe-cinto.dc3{
+	top: 35%;
+	left: 2%;
+	width: 97%;
+	height: 30%;
+	border-bottom: 20px solid black;
+}
+
 .fivela{
 	position: absolute;
-	top: 64.5%;
+	top: 65%;
 	left: 45%;
 	width: 7%;
 	height: 4%; 
 	background: rgba(0,0,0,.5);
-	border: solid 4px black;
+	border: solid 4px white;
 	border-radius: 10%;
 	z-index: 6;
 }
@@ -165,8 +173,8 @@ body, html{
 	top: 0;
 	left: 40%;
 	height: 80%;
-	width: 15%;
-	background: black;
+	width: 13%;
+	background: rgb(218, 165, 32);
 	z-index: 7;
 }
 
@@ -181,9 +189,51 @@ body, html{
   z-index: 20;
 }
 
-.singing {-webkit-animation: month-singing .7s linear infinite;}
+.bochecha{
+	position: absolute;	
+	width: 20%;
+	height: 15%;
+	top: 45%;
+	background: rgb(253, 214, 170);
+	z-index: 6;
+	border-top: 3px solid rgba(0, 0, 0, .7); 
+	border-radius: 50% 50% 10% 10%;
+}
 
-@-webkit-keyframes month-singing {
+.bochecha.bd1{ left: 55%;}
+
+.bochecha.bd2{ left: 25%;}
+
+.olho{
+	position: absolute;
+	top: 22%;
+	width: 18%;
+	height: 30%;
+	background: rgb(255,255,255);
+	border-radius: 50% 50% 10% 10%;
+	z-index: 5;
+	box-shadow: inset 3px 8px 1px -8px rgba(0,0,0,0.8);
+	-webkit-animation: piscando 3s ease-in-out infinite;
+
+}
+.olho.o1{ left: 56%; }
+
+.olho.o2{ left: 26%; }
+
+.iris{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 30%;
+	left: 30%;
+	border-radius: 50%;
+	background-image: -webkit-radial-gradient(center, circle contain, transparent 15%, #3498db 85%);
+	
+}
+
+.singing {-webkit-animation: cantando .7s linear infinite;}
+
+@-webkit-keyframes cantando {
   0%, 100% {
     height: 10%;
     border-radius: 50% 50% 10% 10%;
@@ -192,11 +242,37 @@ body, html{
   25%, 75% {
     height: 20%;
     border-radius: 50%;
-    -webkit-transform: scale(1.6);
+    -webkit-transform: scale(1.4);
   }
   50% {
     height: 13%;;
     border-radius: 50%;
     -webkit-transform: scale(1.2);
   }
+}
+
+@-webkit-keyframes piscando {
+  0% { top: 22%; }
+  5% { top: 22%;}
+  10% { top: 22%;}
+  15% { top: 22%;}
+  20% { top: 22%;}
+  25% { top: 22%;}
+  30% { top: 22%;}
+  34% { top: 22%;}
+  35% { top: 45%;} 
+  40% { top: 22%;}
+  45% { top: 22%;}
+  50% { top: 22%;}
+  55% { top: 22%;}
+  60% { top: 22%;}
+  65% { top: 22%;}
+  70% { top: 22%;}
+  75% { top: 22%;}
+  80% { top: 22%;}
+  85% { top: 22%;}
+  90% { top: 22%;}
+  95% { top: 22%;}
+  100%{ top: 22%;}
+
 }
